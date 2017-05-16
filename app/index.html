@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/stats.js/r16/Stats.min.js"></script>
+    <script src="scripts/threejs/vendor/jsartoolkit5/build/artoolkit.min.js"></script>
+    <script src="scripts/threejs/vendor/jsartoolkit5/js/artoolkit.api.js"></script>
+    <script src="scripts/threejs/threex-artoolkitsource.js"></script>
+    <script src="scripts/threejs/threex-artoolkitcontext.js"></script>
+    <script src="scripts/threejs/threex-arbasecontrols.js"></script>
+    <script src="scripts/threejs/threex-armarkercontrols.js"></script>
+    <script src="scripts/Detector.js"></script>
+    <script src="scripts/video.js"></script>
+    <script src="scripts/main.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        html,
+        body {
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <video id="video" loop webkit-playsinline style="display:none">
+			<source src="images/sample.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+		</video>
+</body>
+
+</html>
