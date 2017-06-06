@@ -139,7 +139,9 @@
         let video = new VideoMesh(width, height);
 
         let mesh = video.create();
-        mesh.position.x = -0.5;
+        mesh.position.x = -1.5;
+        mesh.position.y = 1.5;
+        mesh.rotation.x = Math.PI / 180 * -90;
 
         markerRoot.add(mesh);
 

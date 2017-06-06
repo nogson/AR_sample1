@@ -6,8 +6,8 @@ class VideoMesh {
         this.xgrid = 10;
         this.ygrid = 7;
         this.meshLenght = this.xgrid * this.ygrid;
-        this.videoSizeW = 1.28;
-        this.videoSizeH = 0.72;
+        this.videoSizeW = 1.28 * 3;
+        this.videoSizeH = 0.72 * 3;
         this.meshPos = [];
         this.group = new THREE.Group();
         this.sizeX = this.videoSizeW / this.xgrid;
